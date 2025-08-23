@@ -1,1 +1,4 @@
-echo "betty"
+#!/bin/bash
+echo betty
+
+
