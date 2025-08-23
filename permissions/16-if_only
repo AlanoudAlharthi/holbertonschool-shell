@@ -1,5 +1,2 @@
 #!/bin/bash
-# Change owner to vincent only if current owner is guillaume
-if [ "$(stat -c %U hello)" = "guillaume" ]; then
-    sudo chown vincent hello
-fi
+chown --from=guillaume vincent hello
